@@ -1,0 +1,62 @@
+/*
+    Colorful watercolors
+    by uduki
+*/
+
+* {
+  --colorful-watercolors-yellow: #fff479;
+  --colorful-watercolors-yellowgreen: #caf17b;
+  --colorful-watercolors-green: #9edf9d;
+  --colorful-watercolors-greenblue: #47cda6;
+  --colorful-watercolors-bluegreen: #16bbc0;
+  --colorful-watercolors-blue: #5ea8cd;
+  --colorful-watercolors-bluepurple: #9d96ce;
+  --colorful-watercolors-purple: #d890c9;
+  --colorful-watercolors-redpurple: #ff90ae;
+  --colorful-watercolors-red: #ff9b9a;
+  --colorful-watercolors-orange: #ffb698;
+  --colorful-watercolors-yelloworange: #ffcb8a;
+  --colorful-watercolors-white: #e9e9e9;
+  --colorful-watercolors-lightgray: #acacac;
+  --colorful-watercolors-gray: #747474;
+  --colorful-watercolors-darkgray: #3d3d3d;
+  --colorful-watercolors-black: #1a1a1a;
+  --colorful-watercolors-boostnote-background: #2d3033;
+}
+
+.cm-s-colorful-watercolors.CodeMirror { background: var(--colorful-watercolors-black); color: var(--colorful-watercolors-white); }
+.cm-s-colorful-watercolors div.CodeMirror-selected { background: var(--colorful-watercolors-darkgray); }
+
+.cm-s-colorful-watercolors .CodeMirror-gutters { background: var(--colorful-watercolors-gray); border-right: 2px solid var(--colorful-watercolors-boostnote-background); }
+.cm-s-colorful-watercolors .CodeMirror-linenumber { color: var(--colorful-watercolors-lightgray); }
+
+.cm-s-colorful-watercolors .CodeMirror-cursor { border-left: 1px solid var(--colorful-watercolors-white); }
+
+.cm-s-colorful-watercolors span.cm-variable-2 { color: var(--colorful-watercolors-green); }
+.cm-s-colorful-watercolors span.cm-variable-3 { color: var(--colorful-watercolors-yellowgreen); }
+.cm-s-colorful-watercolors span.cm-keyword { color: var(--colorful-watercolors-greenblue); }
+
+.cm-s-colorful-watercolors span.cm-property { color: var(--colorful-watercolors-darkgray); }
+.cm-s-colorful-watercolors span.cm-meta { color: var(--colorful-watercolors-red); }
+.cm-s-colorful-watercolors span.cm-meta ~ span.cm-variable-2 { color: var(--colorful-watercolors-red); }
+.cm-s-colorful-watercolors span.cm-property ~ span.cm-variable-2 { color: var(--colorful-watercolors-darkgray); text-decoration:line-through; }
+
+.cm-s-colorful-watercolors span.cm-comment { color: var(--colorful-watercolors-black); background-color: var(--colorful-watercolors-bluepurple); font-style: italic;}
+
+.cm-s-colorful-watercolors span.cm-link { color: var(--colorful-watercolors-purple); }
+.cm-s-colorful-watercolors span.cm-string { color: var(--colorful-watercolors-blue); }
+
+.cm-s-colorful-watercolors span.cm-header { color: var(--colorful-watercolors-black); background-color: var(--colorful-watercolors-orange); font-weight: bold; }
+
+.cm-s-colorful-watercolors span.cm-hr { color: var(--colorful-watercolors-orange); }
+
+.cm-s-colorful-watercolors span.cm-strong { color: var(--colorful-watercolors-bluegreen); }
+.cm-s-colorful-watercolors span.cm-em { color: var(--colorful-watercolors-yelloworange); }
+.cm-s-colorful-watercolors span.cm-strikethrough { color: var(--colorful-watercolors-purple); }
+
+.cm-s-colorful-watercolors span.cm-quote { color: var(--colorful-watercolors-yellow); }
+
+.cm-s-colorful-watercolors span.cm-comment:only-child { color: var(--colorful-watercolors-redpurple); background-color: var(--colorful-watercolors-black); font-style: normal; }
+
+.cm-s-colorful-watercolors span.cm-operator { color: var(--colorful-watercolors-lightgray); }
+.cm-s-colorful-watercolors span.cm-number { color: var(--colorful-watercolors-yelloworange); }
