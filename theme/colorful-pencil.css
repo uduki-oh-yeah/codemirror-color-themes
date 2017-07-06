@@ -40,6 +40,10 @@
 .cm-s-colorful-pencil span.cm-meta { color: var(--colorful-pencil-black); }
 .cm-s-colorful-pencil span.cm-meta ~ span.cm-variable-2 { color: var(--colorful-pencil-red); }
 .cm-s-colorful-pencil span.cm-property ~ span.cm-variable-2 { color: var(--colorful-pencil-lightgray); text-decoration:line-through; }
+.cm-s-colorful-pencil span.cm-meta ~ span.cm-variable-3 { color: var(--colorful-pencil-red); }
+.cm-s-colorful-pencil span.cm-property ~ span.cm-variable-3 { color: var(--colorful-pencil-lightgray); text-decoration:line-through; }
+.cm-s-colorful-pencil span.cm-meta ~ span.cm-keyword { color: var(--colorful-pencil-red); }
+.cm-s-colorful-pencil span.cm-property ~ span.cm-keyword { color: var(--colorful-pencil-lightgray); text-decoration:line-through; }
 
 .cm-s-colorful-pencil span.cm-comment { color: var(--colorful-pencil-yelloworange); font-style: italic;}
 
