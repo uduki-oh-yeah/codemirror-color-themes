@@ -1,13 +1,13 @@
 # codemirror-color-themes
 
-boostNote�̃J���[�e�[�}�ł��B
-markdown���C�����悭�������߂ɐF�������Ă��܂��B
+boostNoteのカラーテーマです。
+markdownを気持ちよく書くために色分けしています。
 
-## �g����
+## 使い方
 
-* `C:\Users\**���[�U�[��**\AppData\Local\boost\app-0.8.11\resources\app\node_modules\codemirror\theme`�ɍD����CSS����荞��ŁABoostNote���ċN�����܂��B
-* �ݒ肩��e�[�}�𔽉f�����܂��B
+* `C:\Users\**ユーザー名**\AppData\Local\boost\app-0.8.11\resources\app\node_modules\codemirror\theme`に好きなCSSを放り込んで、BoostNoteを再起動します。
+* 設定からテーマを反映させます。
 
-## �T���v��
+## サンプル
 
 ![Sample](sample.PNG)
