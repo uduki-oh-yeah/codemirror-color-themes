@@ -60,7 +60,7 @@
 
 .cm-s-colorful-watercolors span.cm-quote { color: var(--colorful-watercolors-yellow); }
 
-.cm-s-colorful-watercolors span.cm-comment:only-child { color: var(--colorful-watercolors-redpurple); background-color: var(--colorful-watercolors-black); font-style: normal; }
+.cm-s-colorful-watercolors span.cm-comment:only-child { color: var(--colorful-watercolors-redpurple); background-color: transparent; font-style: normal; }
 
 .cm-s-colorful-watercolors span.cm-operator { color: var(--colorful-watercolors-lightgray); }
 .cm-s-colorful-watercolors span.cm-number { color: var(--colorful-watercolors-yelloworange); }
