@@ -1,0 +1,89 @@
+/*
+ popn magic
+ by uduki
+*/
+
+* {
+ --popn-magic-basecolor1: #fe4365;
+ --popn-magic-basecolor2: #fa9c99;
+ --popn-magic-basecolor3: #f6cbab;
+ --popn-magic-basecolor4: #c8c8a9;
+ --popn-magic-basecolor5: #83af9b;
+ --popn-magic-baseblack: #262626;
+ --popn-magic-basewhite: #cccccc;
+ --popn-magic-basecolor1-light: #ffc2cd;
+ --popn-magic-basecolor2-light: #ffffff;
+ --popn-magic-basecolor3-light: #ffffff;
+ --popn-magic-basecolor4-light: #fafaf7;
+ --popn-magic-basecolor5-light: #d1e1da;
+ --popn-magic-baseblack-light: #666666;
+ --popn-magic-basewhite-light: #ffffff;
+ --popn-magic-basecolor1-dark: #c00124;
+ --popn-magic-basecolor2-dark: #f4261f;
+ --popn-magic-basecolor3-dark: #ea8438;
+ --popn-magic-basecolor4-dark: #93935e;
+ --popn-magic-basecolor5-dark: #466d5b;
+ --popn-magic-baseblack-dark: #000000;
+ --popn-magic-basewhite-dark: #8c8c8c;
+ --popn-magic-boostnote-background: #f4f4f4;
+}
+
+
+
+.cm-s-popn-magic.CodeMirror {
+  background: -moz-linear-gradient(left top,
+  	var(--popn-magic-basecolor3),
+  	var(--popn-magic-basecolor3) 25%,
+  	var(--popn-magic-basecolor4) 25%,
+  	var(--popn-magic-basecolor4) 50%,
+  	var(--popn-magic-basecolor3) 50%,
+  	var(--popn-magic-basecolor3) 75%,
+  	var(--popn-magic-basecolor4) 75%,
+  	var(--popn-magic-basecolor4));
+  background: -webkit-gradient(linear, left top, right bottom,
+  	from(var(--popn-magic-basecolor3)),
+  	color-stop(25%, var(--popn-magic-basecolor3)),
+  	color-stop(25%, var(--popn-magic-basecolor4)),
+  	color-stop(50%, var(--popn-magic-basecolor4)),
+  	color-stop(50%, var(--popn-magic-basecolor3)),
+  	color-stop(75%, var(--popn-magic-basecolor3)),
+  	color-stop(75%, var(--popn-magic-basecolor4)),
+  	to(var(--popn-magic-basecolor4)));
+  -moz-background-size: 20px 20px;
+  -webkit-background-size: 20px 20px;
+  background-size: 20px 20px;
+ color: var(--popn-magic-baseblack);
+ text-shadow: 1px 2px 3px var(--popn-magic-baseblack-light);
+}
+.cm-s-popn-magic div.CodeMirror-selected { background: var(--popn-magic-basewhite-dark); }
+
+.cm-s-popn-magic .CodeMirror-gutters { background: var(--popn-magic-basewhite); border-right: 2px solid var(--popn-magic-boostnote-background); }
+.cm-s-popn-magic .CodeMirror-linenumber { color: var(--popn-magic-basewhite-light); }
+
+.cm-s-popn-magic .CodeMirror-cursor { border-left: 1px solid var(--popn-magic-baseblack-dark); }
+
+.cm-s-popn-magic span.cm-variable-2 { color: var(--popn-magic-basecolor5-dark); }
+.cm-s-popn-magic span.cm-variable-3 { color: var(--popn-magic-basecolor5-dark); }
+.cm-s-popn-magic span.cm-keyword { color: var(--popn-magic-basecolor5-dark); }
+
+.cm-s-popn-magic span.cm-property { text-decoration:line-through;}
+.cm-s-popn-magic span.cm-meta { color: var(--popn-magic-basecolor1); }
+.cm-s-popn-magic span.cm-property ~ span.cm-variable-2 { text-decoration:line-through; }
+.cm-s-popn-magic span.cm-property ~ span.cm-variable-3 { text-decoration:line-through; }
+.cm-s-popn-magic span.cm-property ~ span.cm-keyword { text-decoration:line-through; }
+
+.cm-s-popn-magic span.cm-comment { border: 1px solid var(--popn-magic-basecolor3-dark); border-radius: 3px;}
+
+.cm-s-popn-magic span.cm-link { color: var(--popn-magic-basecolor3-dark); font-weight: bold; }
+.cm-s-popn-magic span.cm-string { color: var(--popn-magic-basecolor3-dark); }
+
+.cm-s-popn-magic span.cm-header { background-color: var(--popn-magic-basecolor3); font-weight: bold; }
+
+.cm-s-popn-magic span.cm-hr { color: var(--popn-magic-basecolor3-dark); }
+
+.cm-s-popn-magic span.cm-quote { color: var(--popn-magic-basecolor4-dark); }
+
+.cm-s-popn-magic span.cm-comment:only-child { border: none; background: linear-gradient(transparent 60%, var(--popn-magic-basecolor2) 60%); font-style: normal; }
+
+.cm-s-popn-magic span.cm-operator { color: var(--popn-magic-basecolor4-dark); }
+.cm-s-popn-magic span.cm-number { color: var(--popn-magic-basecolor4-dark); }
